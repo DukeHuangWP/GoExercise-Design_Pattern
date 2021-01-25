@@ -20,4 +20,9 @@ func TestFactoryMethod(t *testing.T) {
 	maverick.setPower(9)
 	fmt.Printf("Power: %v\n", maverick.getPower())
 
+	_, err := NewGun("unknow")
+	if err != nil {
+		fmt.Printf("\n%v\n", err) //Wrong gun type passed
+	} // 工廠方法模式還需要針對未知類別(struct)處理
+
 }
