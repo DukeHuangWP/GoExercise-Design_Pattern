@@ -1,15 +1,15 @@
-package factoryMethod
+package abstractFactory
 
 import (
 	"fmt"
 	"testing"
 )
 
-//** 工廠方法模式說明 **
-//透過interface創建類別(struct)與定義行為(method)，每個類別依據需求設定不同屬性(struct-field)
-//優點:結構非常明瞭，可以快速建立類別，並簡化定義出所有類別的行為
-//缺點:由於行為(method)統一，定義屬性(struct-field)需要事先完善規劃
-func TestFactoryMethod(t *testing.T) {
+//** 抽象工廠模式說明 **
+//透過interface創建類別(struct)與定義其所有子接口所需要的的共用屬性，在定義子接口每個類別依據需求設定不同屬性(struct-field)
+//優點:結構非常明瞭且比工廠方法更為嚴謹，由父接口與子接口連接可以任意擴充
+//缺點:由於行為(method)統一，定義屬性(struct-field)需要事先完善規劃較工廠方法更為煩瑣
+func TestAbstractFactoryMethod(t *testing.T) {
 	ai1, err := NewAnimal(1, "蛇一號")
 	if err != nil {
 		fmt.Println(err)
@@ -56,7 +56,7 @@ func TestFactoryMethod(t *testing.T) {
 	fmt.Println("------------------------")
 }
 
-func DoCreepNSwimming(ai AnimalInterface) {
+func DoCreepNSwimming(ai AnimalDoInterface) {
 	fmt.Println(ai.Creep())
 	fmt.Println(ai.Swimming())
 }
