@@ -7,14 +7,14 @@ Go 語言設計模式的實例代碼
 
 * ✔[簡單工廠模式（Simple Factory）](https://github.com/senghoo/golang-design-pattern/tree/master/00_simple_factory)
 * ✔[工廠方法模式（Factory Method）](https://github.com/senghoo/golang-design-pattern/tree/master/04_factory_method)
-* [抽象工廠模式（Abstract Factory）](https://github.com/senghoo/golang-design-pattern/tree/master/05_abstract_factory)
-* [創建者模式（Builder）](https://github.com/senghoo/golang-design-pattern/tree/master/06_builder)
-* [原型模式（Prototype）](https://github.com/senghoo/golang-design-pattern/tree/master/07_prototype)
-* [單例模式（Singleton）](https://github.com/senghoo/golang-design-pattern/tree/master/03_singleton)
+* ✔[抽象工廠模式（Abstract Factory）](https://github.com/senghoo/golang-design-pattern/tree/master/05_abstract_factory)
+* ✔[創建者模式（Builder）](https://github.com/senghoo/golang-design-pattern/tree/master/06_builder)
+* ✔[原型模式（Prototype）](https://github.com/senghoo/golang-design-pattern/tree/master/07_prototype)
+* ✔[單例模式（Singleton）](https://github.com/senghoo/golang-design-pattern/tree/master/03_singleton)
 
 ## 結構型模式
 
-* [外觀模式（Facade）](https://github.com/senghoo/golang-design-pattern/tree/master/01_facade)
+* ✔[外觀模式（Facade）](https://github.com/senghoo/golang-design-pattern/tree/master/01_facade)
 * [適配器模式（Adapter）](https://github.com/senghoo/golang-design-pattern/tree/master/02_adapter)
 * [代理模式（Proxy）](https://github.com/senghoo/golang-design-pattern/tree/master/09_proxy)
 * [組合模式（Composite）](https://github.com/senghoo/golang-design-pattern/tree/master/13_composite)
